@@ -1,0 +1,82 @@
+/* Geral */
+
+* {
+    font-family: 'Roboto';
+}
+
+/* Home */
+
+.container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: antiquewhite;
+    height: 10rem;
+    border-radius: 3rem;
+}
+
+.container h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+.container-md {
+    margin-bottom: 2rem;
+}
+
+.msg {
+    background-color: #D4EDDA;
+    color: #155724;
+    border: 1px solid #C3E6CB;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+#cards-container {
+    display: flex;
+}
+
+#cards-container .card {
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+.card img {
+    height: 24rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+}
+
+/* Formulário */
+
+/* Show */
+
+#image-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#image-container img {
+    height: 20rem;
+    border-radius: 3rem;
+}
+
+/* Dashboard */
+
+.action-buttons {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os botões */
+}
+
+.action-buttons a,
+.action-buttons form {
+    margin: 0;
+}
